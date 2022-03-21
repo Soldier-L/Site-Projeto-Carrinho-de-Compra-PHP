@@ -1,0 +1,39 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*navbar responsivo*/
+nav form a {
+    color: white;
+    
+  }
+  
+  /*navbar responsivo*/
+  @media (max-width: 1024px) {
+      #navbar{display: none;}
+      .btn-toggle{display: block;}
+    }
+
+/*carrinho logo navbar*/
+.cart1{
+    padding: 0px 8px 0px 0px;
+}
+
+  /* Nome usuário + sair */
+.user{
+    color: white;  
+    
+    font-size: 16px;
+    padding-right: 30px;
+  }
+
+  /*Texto usuario navbar*/
+form h5 a:hover {
+    color:rgb(185, 183, 183)!important;
+  }
+
+  
